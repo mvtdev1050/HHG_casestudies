@@ -1,0 +1,37 @@
+h4 {
+    font-size: 21px;
+    color: #4c4c4c;
+    font-weight: 700;
+}
+
+@media(min-width: 992px) {
+    .container.counterContainer {
+        max-width: 25%;
+    }
+}
+
+.btn-primary.outlined-button {
+    width: 120px;
+    line-height: 1.2;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #0d6efd;
+}
+
+.btn-primary.filled-button {
+    width: 120px;
+    line-height: 1.2;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.btn-primary.filled-button:hover {
+    background-color: transparent;
+    color: #0d6efd;
+}
